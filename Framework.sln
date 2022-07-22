@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Domain", "Framework.Domain\Framework.Domain.csproj", "{28E82FB3-F2E2-4336-B35E-3E84DABF8D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Domain", "Framework.Domain\Framework.Domain.csproj", "{28E82FB3-F2E2-4336-B35E-3E84DABF8D80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Infrastructure", "Framework.Infrastructure\Framework.Infrastructure.csproj", "{563A3350-810C-4632-B0D5-38EA5B72C7B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Infrastructure", "Framework.Infrastructure\Framework.Infrastructure.csproj", "{563A3350-810C-4632-B0D5-38EA5B72C7B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Common", "Framework.Common\Framework.Common.csproj", "{7445D611-577F-4DCD-8497-C9C5C81C5737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Common", "Framework.Common\Framework.Common.csproj", "{7445D611-577F-4DCD-8497-C9C5C81C5737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Application", "Framework.Application\Framework.Application.csproj", "{E2CBB762-B7FB-413F-80D8-D9256D62B580}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Application", "Framework.Application\Framework.Application.csproj", "{E2CBB762-B7FB-413F-80D8-D9256D62B580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.UTest", "Framework.UTest\Framework.UTest.csproj", "{DD2D3D35-761F-40A5-869B-6A4D514BCEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.DemoWeb", "Framework.DemoWeb\Framework.DemoWeb.csproj", "{143B1745-45E7-4864-9905-D8B2A9864DBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E2CBB762-B7FB-413F-80D8-D9256D62B580}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2CBB762-B7FB-413F-80D8-D9256D62B580}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2CBB762-B7FB-413F-80D8-D9256D62B580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2D3D35-761F-40A5-869B-6A4D514BCEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2D3D35-761F-40A5-869B-6A4D514BCEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2D3D35-761F-40A5-869B-6A4D514BCEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2D3D35-761F-40A5-869B-6A4D514BCEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143B1745-45E7-4864-9905-D8B2A9864DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143B1745-45E7-4864-9905-D8B2A9864DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143B1745-45E7-4864-9905-D8B2A9864DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143B1745-45E7-4864-9905-D8B2A9864DBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
